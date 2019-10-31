@@ -21,7 +21,7 @@ public class HomeActivity extends AppCompatActivity {
         BottomNavigationView navView = findViewById(R.id.nav_view);
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.navigation_movie, R.id.navigation_favorite, R.id.navigation_notifications)
+                R.id.navigation_movie, R.id.navigation_favorite)
                 .build();
     }
 
