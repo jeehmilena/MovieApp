@@ -53,9 +53,7 @@ public class HomeActivity extends AppCompatActivity implements BottomNavigationV
                 replaceFragment(R.id.container, new FilmePopularFragment());
                 break;
             }
-
         }
-
         return true;
     }
 }
